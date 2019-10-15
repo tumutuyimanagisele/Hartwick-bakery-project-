@@ -5,6 +5,8 @@
 cookies = []
 candies = []
 
+# first i will define the function that will receive the inputs from the user
+# we used range 0 to 6 because it is the number of inputs that the user have to use
 
 def cookies_input():
     for cookie in range(0, 6):
@@ -54,11 +56,11 @@ def max_minimum_candies():
 
 def popular():
     if av_ca_pop() > av_co_pop():
-        print("Candy is the more popular choice")
+        print(" yay !!! Candy is the more popular choice")
     elif av_co_pop() > av_ca_pop():
-        print("Cookies are more popular")
+        print(" yay !!Cookies are more popular")
     elif av_co_pop() == av_ca_pop():
-        print("There is no popular choice")
+        print(" oh oh There is no popular choice")
 
 
 # Now i will call the functions
